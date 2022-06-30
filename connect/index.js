@@ -34,7 +34,7 @@ font: 'block',
 gradient: ['red','magenta'],
 align: 'center'
 })
-cfonts.say('Whatsapp Bot By Fandyyy',{
+cfonts.say('dv by akashi',{
 font: 'console',
 gradient: ['red','magenta'],
 align: 'center'
@@ -82,10 +82,10 @@ ppuser = await ichi.profilePictureUrl(num, 'image')
 ppuser = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
 if (anu.action == 'add') {
-tekswell = `Welcome @${num.split('@')[0]} To ${metadata.subject} 👋`
+tekswell = `*•──━━【☁️】━━──•*\n\n  *✦  هلااااا*  『  @${num.split("@")[0]} 』\n\n *✦لقبي 『 سنباااي  senpai😎』*\n\n *✦ منور الجروب 😍  نتمنى تستمتع معنا*\n\n *✦I hope u enjoy with us🙏*\n\n *•──━━【☁️】━━──•* \n\n *•──━━【☁️】━━──•* \n\n *❀ مـلاحـظـة❗ :* \n\n  *لا تنسى تدخل جروب الاعلانات ضروري 🤩* \n\n  *•━───╮⛩️╭───━•* \n\n ✥https://chat.whatsapp.com/DuXkY0NyAG8CODWglFOwMi✥ \n\n *•━───╮⛩️╭───━•* \n\n *⊰ ${metadata.subject} ⊱*`
 ichi.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: tekswell })
 } else if (anu.action == 'remove') {
-teksbye = `Sayonaraa @${num.split("@")[0]} 👋`
+teksbye = `*بااااي باااي مع السلااامه شووكرا على الزياارة*  😂😂😂 @${num.split("@")[0]} 👋`
 ichi.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: teksbye })
 } else if (anu.action == 'promote') {
 tekspromo = `Selamat Ya @${num.split("@")[0]} Atas Kenaikan Jabatannya Di Grup ${metadata.subject} 🎉`
